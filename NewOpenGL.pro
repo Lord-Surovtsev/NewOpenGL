@@ -3,7 +3,7 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-LIBS += libfreeglut -lopengl32 -lglu32 -luser32
+LIBS += libfreeglut -lopengl32 -lglu32 -luser32 -lsfml-system
 
 SOURCES += \
     main.cpp
